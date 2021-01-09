@@ -1,3 +1,4 @@
+* 吕秀庆 高级计算机视觉课程实验项目
 #  FCN Semantic Segmentation with PyTorch
 
 本项目是论文[Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/abs/1411.4038)的一个pytorch简单复现，数据集很小，是一些随机背景上的一些包的图片（所有数据集大小一共不到80M），如下图
@@ -6,14 +7,8 @@
 
 > 关于此数据集详细信息，见[数据集](#数据集)
 
-根据论文实现了FCN32s、FCN16s、FCN8s和FCNs
+根据论文实现了FCN32s、FCN16s和FCN8s
 
->部分代码参考了[这个repo](https://github.com/wkentaro/pytorch-fcn)
-
-使用visdom可视化，运行了20个epoch后的可视化如下图：
-
-![可视化1](assets/vis1.jpg)
-![可视化2](assets/vis2.jpg)
 
 
 ## 1.如何运行
@@ -57,6 +52,10 @@ python train.py
 * test prediction：预测时模型的输出（每次训练都会预测，但预测数据不参与训练与backprop）
 * train iter loss：训练时每一批（batch）的loss情况
 * test iter loss：测试时每一批（batch）的loss情况
+使用visdom可视化，运行了20个epoch后的可视化如下图：
+
+![可视化1](assets/vis1.jpg)
+![可视化2](assets/vis2.jpg)
 
 ## 4. 项目结构
 
