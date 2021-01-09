@@ -60,7 +60,7 @@ python train.py
 
 ## 4. 项目结构
 
-![image-20210109230336410](assets\pro.png)
+![项目结构](assets/pro.png)
 
 **说明**
 
