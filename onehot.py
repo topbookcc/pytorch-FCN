@@ -1,6 +1,6 @@
 import numpy as np
 
-# onehot处理
+# onehot编码
 def onehot(data, n):
     buf = np.zeros(data.shape + (n, ))
     nmsk = np.arange(data.size)*n + data.ravel()
