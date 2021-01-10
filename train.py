@@ -118,7 +118,7 @@ def train(epo_num=50, show_vgg_params=False):
             torch.save(fcn_model, 'checkpoints/fcn_model_{}.pt'.format(epo))
             print('saveing checkpoints/fcn_model_{}.pt'.format(epo))
 
-
+# train main
 if __name__ == "__main__":
 
     train(epo_num=100, show_vgg_params=False)
