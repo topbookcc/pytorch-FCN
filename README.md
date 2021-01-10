@@ -78,5 +78,5 @@ python train.py
 * test iter loss：测试时每一批（batch）的loss情况
 使用visdom可视化，运行了20个epoch后的可视化如下图：
 
-![可视化1](assets/vis1.jpg){:height="200"}
-![可视化2](assets/vis2.jpg){:height="200"}
+![可视化1](assets/vis1.jpg)
+![可视化2](assets/vis2.jpg)
