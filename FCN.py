@@ -150,7 +150,7 @@ class FCNs(nn.Module):
 
         return score  
 
-
+# 定义VGGNet结构
 class VGGNet(VGG):
     def __init__(self, pretrained=True, model='vgg16', requires_grad=True, remove_fc=True, show_params=False):
         super().__init__(make_layers(cfg[model]))
