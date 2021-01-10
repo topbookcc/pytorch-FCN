@@ -1,9 +1,7 @@
 * 吕秀庆 高级计算机视觉课程实验项目
 #  FCN Semantic Segmentation with PyTorch
 
-本项目是论文[Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/abs/1411.4038)的一个pytorch简单复现，数据集很小，是一些随机背景上的一些包的图片（所有数据集大小一共不到80M），如下图
-
-<img src="assets/task.png" alt="数据集示意图" width=450 />
+本项目是论文[Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/abs/1411.4038)的一个pytorch简单复现，数据集很小，是一些随机背景上的一些包的图片（所有数据集大小一共不到80M）
 
 > 关于此数据集详细信息，见[数据集](#数据集)
 
@@ -23,7 +21,7 @@
 * visdom == 0.1.8.5
 * OpenCV-Python == 3.4.1
 
-### 1.2 具体操作
+### 1.2 运行命令
 
 * 打开终端，输入
 ```sh
@@ -36,6 +34,8 @@ python train.py
 * 若没有问题可以打开浏览器输入`http://localhost:8097/`来使用`visdom`可视化
 
 ### 1.3 训练细节
+
+![image-20210110111053640](https://i.loli.net/2021/01/10/vHzgJKlubIEw4rh.png)
 
 ![训练细节](assets/train.jpg)
 
