@@ -80,5 +80,3 @@ python train.py
 
 ![可视化1](assets/vis1.jpg){:height="200"}
 ![可视化2](assets/vis2.jpg){:height="200"}
-
-
